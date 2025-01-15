@@ -1,0 +1,63 @@
+<div class="big-card">
+                <!-- Formulaire pour la création d'un compte client -->
+                <form class="connexion-container enregistrement" action="/creerCompte2.php" method="post">
+                    <!-- Informations liés à la création du compte -->
+                    <div id="compte">
+                        <div class="row">
+                            <select name="civilite" id="civilite" class="civ-selectbox">
+                                <option value="M">M.</option>
+                                <option value="Mme">Mme.</option>
+                                <option value="Autre">Autre</option>
+                            </select>
+                            <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+                        </div>
+                        
+                        <div class="row">
+                            <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+                        </div>
+
+                        <div class="adresse">
+                            <div class="row">
+                                <input type="text" id="adresse" name="adresse" placeholder="Adresse" required>
+                            </div>
+
+                            <div class="row">
+                                <input type="text" id="cp" name="cp" placeholder="Code postal" required>
+                                <input type="text" name="ville" id="ville" placeholder="Ville" required>
+                            </div>
+
+                            <div class="row">
+                                <input type="text" id="complement_adresse" name="complement_adresse" placeholder="Complément d'adresse">
+                            </div>
+                        </div>
+
+                        <div class="row email-tel">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="text" id="tel" name="tel" placeholder="Téléphone" required>
+                        </div>
+                        
+                        <div class="row last-row">
+                            <div class="half-row" id="hr-mdp">
+                                <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                                <input type="password" id="mdp" name="mdp" placeholder="Confirmer le mot de passe" required>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="cgu" id="cgu" class="checkbox" required>
+                                    <label for="cgu">J'accepte les <a href="#">Conditions Générales d'Utilisation</a></label>
+                                </div>
+                            </div>
+                            <div class="half-row" id="hr-text">
+                                <ul>
+                                Le mot de passe doit contenir :
+                                    <li>8 caractères</li>
+                                    <li>1 majuscule, 1 minuscule</li>
+                                    <li>1 chiffre et 1 caractère spécial</li>
+                                </ul>
+
+                                <!-- Si l'utilisateur veux créer un compte propriétaire -->
+                                <a class="yellow-button" href="/formProprietaire.php">Je suis propriétaire</a>           
+                                <input type="submit" value="S'enregistrer">
+                            </div>
+                        </div>
+                    </div>
+                </form>

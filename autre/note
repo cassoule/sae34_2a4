@@ -1,0 +1,13 @@
+<script>
+        function supprimerMessages(id) {
+        var confirmation = confirm("Êtes-vous sûr de vouloir supprimer refuser le devis ?");
+        if (confirmation) {
+            window.location.href = "supprimerMessage.php/?id_message=" + id;
+        } else {
+            alert("Vous n'avez pas supprimer le message");
+        }
+    }
+    </script>
+
+
+<!-- onclick="supprimerMessage(<?php //echo $row['id_message_demande_devis'] ?>)" -->

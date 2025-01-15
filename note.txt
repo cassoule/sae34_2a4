@@ -1,0 +1,2 @@
+_message_demande_devis
+_jour       -> raison personelle = indisponible        -> reserver = reserve

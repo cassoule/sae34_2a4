@@ -1,0 +1,20 @@
+mettre des id pour les _amenagempent etc (les _contient et tt aussi)
+id client de message relier a celui de client
+logement ajout est_actif, nb_nuits_min, contrainte_arrivee, contrainte_depart 
+ameliorarion du jeu de tests
+supprimer table calendrier
+prix dans table _jour
+
+
+
+
+
+
+  tarif_nuit_HT           	FLOAT NOT NULL, /* a deplacer dans la table _jour */
+  avis_logement_total           FLOAT NOT NULL,
+  est_actif	      		  BOOLEAN   NOT NULL,
+  /*nb_nuits_min        VARCHAR(50)        NOT NULL*/
+  /*contrainte_arrivee  VARCHAR(50)            NOT NULL*/
+  /*contrainte_depart              INT        NOT NULL*/
+  id_proprietaire		    INT   NOT NULL,
+/*tarif_nuit_HT           	FLOAT NOT NULL,  dans la table _jour pour avoir le prix par jour */

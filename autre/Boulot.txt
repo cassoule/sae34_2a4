@@ -1,0 +1,26 @@
+Yohann paiement ?, ajoutModifLogement (les !!pages a formulaire libre pour utilisateur):
+    -faire des verifications assez poussées pour les informations données par les utilisateurs
+BDD:
+   -regarder pour crypter les mot de passe dans la bdd lorsqu'il sont stocker (sécurité)
+   -!faire un jeu de test fonctionnel (image, compte, info, ...) pour tester au mieux le site
+Maxime Page accessible avec conditions (ex: modif logement -> uniquement par le proprio, uniquement lorsque connecter, avec paramètres spécifiques), sans affichage:
+    -!faire des vérifications lors du chargement de la page si un lambda mets l'URL nature
+Yoann Page messagerie:
+    -finir la page proprement
+thomas !!!Page de réservation:
+    - faire un message d'erreur si les dates sont déja pris par quelqu'un
+Toutes les pages:
+    -!!faire d'abord le bootstrap de index.php puis on fait toutes le autres pages en suivant le modèle de index.php
+    -Vérifier 5 fois les critères d'évaluations
+Thomas Page envoieMessageDevis:
+    -faire un else dans le cas ou le propriétaire refuse pour afficher un message ou autre ?
+    -finir la page avec les calculs de prix et réparer les erreurs en commentaire
+Tom Page ajout, modif logement:
+    -calendrier
+Page creerCompte, formProprietaire :
+    -verifier que l'adresse mail n'est pas deja dans la bdd ou le pseudo, ...
+Page connexion:
+    -voir avec Gildas pour utiliser la biblio phpmailer pour envoyer des mail sinon on ne touche a rien
+
+
+    paiement : Manon
